@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&family=Shantell+Sans:ital,wght@0,300;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.hadda{
+    position: center;
+    padding :0 500px 0 600px;
+    font-family: "Shantell";
+    margin:0;
+    padding-top: 0%; 
+    color: #CBE4DE;
+    font-size: 30px;
+    
+}
+body {
+    background-color: #1c2525;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    background-color:#0E8388;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 2rem;
+    right: 1rem;
+    margin: 0;
+    
+}
+
+.note {
+    background-color: #CBE4DE;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    
+    
+}
+
+.note .tools {
+    background-color: #0E8388;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note .main {
+    background-color: #CBE4DE;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    
+}
+
+.note .hidden {
+    display: none;
+}
